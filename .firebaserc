@@ -1,0 +1,19 @@
+{
+  "projects": {
+    "default": "ageless-aleph-377013"
+    "production": "ageless-aleph-377013"
+  },
+  "targets": {
+    "ageless-aleph-377013": {
+      "hosting": {
+        "staging": [
+          "karma-claims-staging"
+        ],
+        "prod": [
+          "ageless-aleph-377013"
+        ]
+      }
+    }
+  }
+  
+}

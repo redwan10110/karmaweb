@@ -1,0 +1,19 @@
+.bg{
+    background: url('../../public/assets/About-Hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+}
+
+@media (max-width: 640px){
+    .bg{
+        background: url('../../public/assets/aboutUsMobileBg.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100vw;
+        height: auto;
+        background-color: #293891;
+    }
+}

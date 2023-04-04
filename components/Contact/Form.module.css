@@ -1,0 +1,13 @@
+.customSelect {
+  /* Hide the default arrow icon */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Add a custom arrow icon */
+  background-image: url('../../public/assets/dropDownArrow.svg');
+  background-position: right 0.5rem center;
+  background-repeat: no-repeat;
+  background-size: 1em 1em;
+  padding-right: 3em; /* Add padding for the arrow icon */
+}
+
